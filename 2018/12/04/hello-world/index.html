@@ -388,6 +388,30 @@
     
 
     
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>赞赏是最好的支持与鼓励！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="刘笑子 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
 
     
       <div>
@@ -416,6 +440,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/03/31/python脚本在crontab中执行的几个坑/" rel="prev" title="python脚本在crontab中执行要避开的坑">
+                python脚本在crontab中执行要避开的坑 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
@@ -481,7 +521,7 @@
               <img class="site-author-image" itemprop="image" src="/images/logo.jpg" alt="刘笑子">
             
               <p class="site-author-name" itemprop="name">刘笑子</p>
-              <p class="site-description motion-element" itemprop="description">刘笑子编程、生活随笔.</p>
+              <p class="site-description motion-element" itemprop="description">刘笑子技术、生活随笔.</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -491,14 +531,32 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -508,6 +566,12 @@
           
 
           
+          
+            <div class="cc-license motion-element" itemprop="license">
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
+                <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons">
+              </a>
+            </div>
           
 
           
@@ -548,11 +612,11 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">ChazLiu</span>
+  <span class="author" itemprop="copyrightHolder">2018 by ChazLiu</span>
 
   
 </div>
@@ -607,6 +671,8 @@
   
 
 
+  
+
 
 
 
@@ -645,6 +711,11 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
 
 
